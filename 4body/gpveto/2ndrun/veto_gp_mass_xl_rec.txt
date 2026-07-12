@@ -1,0 +1,1 @@
+method=GP_rbf veto='m1:0.75:0.93' axis=m1 ratio=1.0092 chi2nb=8.4816 coverage=1.0000 nbins=18

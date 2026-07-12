@@ -1,0 +1,1 @@
+method=spline veto='m1:0.82:0.86' axis=m1 ratio=1.0031 chi2nb=0.7133 nbins=4

@@ -1,0 +1,14 @@
+device: cuda  grid [8, 8, 8, 8, 6] = 24576 bins  kernel rbf
+VETO [cos1 in (0.4,1)]: training on 18432 of 24576 grid bins
+grid points 18432 (kernel matrix ~1.4 GB)
+iter    0  loss 0.7742
+iter   50  loss -0.1360
+iter  100  loss -0.5351
+iter  150  loss -0.6010
+iter  200  loss -0.6174
+iter  250  loss -0.6252
+iter  300  loss -0.6280
+iter  350  loss -0.6291
+iter  399  loss -0.6299
+ARD length scales (normalised): [0.917 0.856 0.828 0.439 7.976]
+  [GP rbf] recovery ratio=1.142 chi2/nb=2682.16 coverage=0.42  saved plots_veto/veto_gp_atail_l_rec.png

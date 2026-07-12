@@ -1,0 +1,25 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783658925.242072   23238 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+GPUs: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]  | veto='cos1:-0.85:-0.15' hidden=[64, 128, 64, 16] lam2=0.3 lr=0.0005->1.5e-05 epochs=30000
+VETO [cos1 in (-0.85,-0.15)]: 2229054 events removed, 2959406 remain
+train 2663466, val 295940, norm 1689205
+I0000 00:00:1783658929.270133   23238 gpu_device.cc:2043] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 20833 MB memory:  -> device: 0, name: NVIDIA L4, pci bus id: 0000:01:00.0, compute capability: 8.9
+  epoch      0  val      17956.7  best      17956.7
+  epoch   2000  val    -195957.9  best    -196006.2
+  epoch   4000  val    -196148.5  best    -196213.6
+  epoch   6000  val    -195995.4  best    -196213.6
+  epoch   8000  val    -195852.4  best    -196213.6
+  epoch  10000  val    -195903.0  best    -196213.6
+  epoch  12000  val    -195893.9  best    -196213.6
+  epoch  14000  val    -195961.8  best    -196213.6
+  epoch  16000  val    -196011.9  best    -196213.6
+  epoch  18000  val    -196117.9  best    -196213.6
+  epoch  20000  val    -196103.1  best    -196213.6
+  epoch  22000  val    -196087.2  best    -196213.6
+  epoch  24000  val    -196092.9  best    -196213.6
+  epoch  26000  val    -196095.1  best    -196213.6
+  epoch  28000  val    -196056.2  best    -196213.6
+done: best_val=-196213.6 @ epoch 3000
+  [ANN] recovery ratio=1.009  chi2/nb=8.01  saved plots_veto/veto_ann_apeak_l_rec.png
+saved plots_veto/veto_ann_apeak_l.npy + plots_veto/veto_ann_apeak_l_rec.png

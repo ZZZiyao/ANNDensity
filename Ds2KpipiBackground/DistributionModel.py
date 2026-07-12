@@ -56,8 +56,8 @@ parameters_list = [
     ("pcut",     r"Track $p$ cut (GeV)",     (1.0, 4.0), -6.), 
     ("kstarmeanpt", r"Mean $p_{T}(K^{*})$ (GeV)",   (0.5, 3.),  None), 
     ("rhomeanpt",   r"Mean $p_{T}(\rho)$ (GeV)",    (0.5, 3.),  None), 
-    ("kstarfrac",   r"$K^{*}$ fraction",   (0., 0.3),  None), 
-    ("rhofrac",     r"$\rho$ fraction",    (0., 0.3),  None), 
+    ("kstarfrac",   r"$K^{*}$ fraction",   (0., 0.4),  None),   # widened so true 0.2 sits mid-range (§8 latent fit)
+    ("rhofrac",     r"$\rho$ fraction",    (0., 0.6),  None),   # widened so true 0.4 sits mid-range (§8 latent fit)
 ]
 
 # "True" values of the model parameters to be used for generation of the test sample

@@ -1,0 +1,29 @@
+nohup: ignoring input
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783688509.092961    1364 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1783688509.144843    1364 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783688510.276581    1364 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+GPUs: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]  | veto='cos1:-0.4:0.2,cos2:-0.4:0.2,m1:0.80:0.92' hidden=[64, 128, 64, 16] lam2=0.3 lr=0.0005->1.5e-05 epochs=30000
+VETO [cos1 in (-0.4,0.2) AND cos2 in (-0.4,0.2) AND m1 in (0.8,0.92)]: 229167 events removed, 4959293 remain
+train 4463364, val 495929, norm 2525243
+I0000 00:00:1783688512.947442    1364 gpu_device.cc:2043] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79194 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:0a:00.0, compute capability: 8.0
+  epoch      0  val     -17396.0  best     -17396.0
+  epoch   2000  val    -286851.4  best    -286851.4
+  epoch   4000  val    -287067.6  best    -287067.6
+  epoch   6000  val    -287041.6  best    -287077.4
+  epoch   8000  val    -287232.4  best    -287261.7
+  epoch  10000  val    -287498.0  best    -287498.0
+  epoch  12000  val    -287442.5  best    -287526.5
+  epoch  14000  val    -287475.4  best    -287526.5
+  epoch  16000  val    -287363.8  best    -287526.5
+  epoch  18000  val    -287161.1  best    -287526.5
+  epoch  20000  val    -287148.6  best    -287526.5
+  epoch  22000  val    -287222.6  best    -287526.5
+  epoch  24000  val    -287167.7  best    -287526.5
+  epoch  26000  val    -287189.7  best    -287526.5
+  epoch  28000  val    -287116.8  best    -287526.5
+done: best_val=-287526.5 @ epoch 10600
+  [ANN] recovery ratio=0.991  chi2/nb=2.44  saved veto_ann_3d_rec.png
+saved veto_ann_3d.npy + veto_ann_3d_rec.png

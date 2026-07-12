@@ -1,0 +1,13 @@
+5D Legendre: order=4/dim -> 3125 coefficients; hist 8^5=32768 bins; lambda2=1.0
+design matrix (32768, 3125)
+VETO [cos1 in (-0.6,-0.2) AND cos2 in (-0.6,-0.2)]: fitting 32256 of 32768 bins (hole extrapolated)
+  iter 0  nll 58265.7  step 5.5e-05
+  iter 500  nll 55312.7  step 1.2e-05
+  iter 1000  nll 55301.0  step 1.9e-05
+  iter 1500  nll 55295.2  step 1.6e-05
+  iter 2000  nll 55291.4  step 1.4e-05
+  iter 2500  nll 55288.7  step 1.2e-05
+  iter 3000  nll 55286.7  step 9.8e-06
+  iter 3500  nll 55285.1  step 1.6e-05
+fit done: nll=55283.8
+  [Legendre] recovery ratio=1.004  chi2/nb=0.95  saved plots_veto/veto_leg_2d_s_rec.png

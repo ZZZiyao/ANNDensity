@@ -1,0 +1,1 @@
+method=Legendre veto='m1:0.82:0.86' axis=m1 ratio=1.0077 chi2nb=2.9534 nbins=4

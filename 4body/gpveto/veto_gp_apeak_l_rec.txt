@@ -1,0 +1,1 @@
+method=GP_rbf veto='cos1:-0.85:-0.15' axis=cos1 ratio=1.0143 chi2nb=12.6050 coverage=1.0000 nbins=14

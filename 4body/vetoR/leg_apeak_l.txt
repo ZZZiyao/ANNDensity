@@ -1,0 +1,1 @@
+method=Legendre veto='cos1:-0.85:-0.15' axis=cos1 ratio=1.0053 chi2nb=3.8893 nbins=14

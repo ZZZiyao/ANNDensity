@@ -1,0 +1,4 @@
+5D cubic spline: 8 knots/dim -> 32768 nodes
+grid 8^5=32768 bins; empty bins: 0 (0.0%)  <- spline interpolates over these
+VETO [m1 in (0.78,0.9)]: 8192 hole nodes filled by nearest non-veto node
+  [spline] recovery ratio=0.999  chi2/nb=3.16  saved plots_veto/veto_spl_mass_l_rec.png

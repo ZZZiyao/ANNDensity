@@ -86,16 +86,18 @@ def compute_chi2(model, scale, m, t, bins=50):
 def main():
     bins_proj = 100
 
+    import os
+    _TAG = os.environ.get("EFF_TAG", "")
     # ---- load ANN ----
-    model, scale, ranges = load_ann("eff_train_2d.npy")
+    model, scale, ranges = load_ann(os.environ.get("EFF_MODEL", "eff_train_2d.npy"))
 
     # ---- load data ----
-    f_train = uproot.open("eff_toy_4e6.root")
+    f_train = uproot.open(os.environ.get("EFF_TOY_HI", "eff_toy_4e6.root"))
     tree_train = f_train[f_train.keys()[0]]
     m_train = tree_train["mprime"].array(library="np")
     t_train = tree_train["thetaprime"].array(library="np")
 
-    f_test = uproot.open("eff_toy_1e5.root")
+    f_test = uproot.open(os.environ.get("EFF_TOY_LO", "eff_toy_1e5.root"))
     tree_test = f_test[f_test.keys()[0]]
     m_test = tree_test["mprime"].array(library="np")
     t_test = tree_test["thetaprime"].array(library="np")
@@ -178,7 +180,7 @@ def main():
     )
 
     plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig("fig5_ann.png", dpi=300)
+    plt.savefig(f"fig5_ann{_TAG}.png", dpi=300)
     print(f"Saved fig5_ann.png")
     plt.close()
 

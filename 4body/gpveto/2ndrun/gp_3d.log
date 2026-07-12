@@ -1,0 +1,17 @@
+device: cuda  grid [8, 8, 8, 8, 6] = 24576 bins  kernel rbf
+VETO [cos1 in (-0.4,0.2) AND cos2 in (-0.4,0.2) AND m1 in (0.8,0.92)]: training on 23280 of 24576 grid bins
+grid points 23280 (kernel matrix ~2.2 GB)
+/usr/local/lib/python3.12/dist-packages/gpytorch/likelihoods/noise_models.py:150: NumericalWarning: Very small noise values detected. This will likely lead to numerical instabilities. Rounding small noise values up to 0.0001.
+  warnings.warn(
+iter    0  loss 0.7698
+iter   50  loss -0.1694
+iter  100  loss -0.6375
+iter  150  loss -0.7277
+iter  200  loss -0.7527
+iter  250  loss -0.7585
+iter  300  loss -0.7632
+iter  350  loss -0.7669
+iter  399  loss -0.7670
+ARD length scales (normalised): [0.991 0.977 0.521 0.616 3.633]
+  [GP rbf] recovery ratio=1.007 chi2/nb=1.55 coverage=0.67  saved plots_veto/veto_gp_3d_rec.png
+  saved plots_veto/veto_gp_3d_model.pt

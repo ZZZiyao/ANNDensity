@@ -1,0 +1,14 @@
+=== ANN multi-GPU START Thu Jul  9 21:16:11 UTC 2026  |  6 GPUs, 13 configs ===
+[GPU 0] mass_s  m1:0.82:0.86  21:16:11
+[GPU 3] mass_xl  m1:0.75:0.93  21:16:11
+[GPU 1] mass_m  m1:0.80:0.88  21:16:11
+[GPU 4] apeak_s  cos1:-0.6:-0.4  21:16:11
+[GPU 2] mass_l  m1:0.78:0.90  21:16:11
+[GPU 5] apeak_m  cos1:-0.7:-0.3  21:16:11
+[GPU 3] atail_l  cos1:0.4:1.0  01:02:16
+[GPU 2] atail_m  cos1:0.5:0.9  02:13:47
+[GPU 5] 2d_l  cos1:-0.7:0.1,cos2:-0.7:0.1  02:53:38
+[GPU 1] atail_s  cos1:0.6:0.8  03:00:46
+[GPU 4] 2d_s  cos1:-0.6:-0.2,cos2:-0.6:-0.2  04:45:56
+[GPU 0] apeak_l  cos1:-0.85:-0.15  04:48:44
+[GPU 0] 3d  cos1:-0.4:0.2,cos2:-0.4:0.2,m1:0.80:0.92  09:11:28

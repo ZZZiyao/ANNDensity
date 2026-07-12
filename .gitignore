@@ -22,3 +22,8 @@ htmlcov/
 
 *.pdf
 *.npy
+
+# Large data / artifact files (kept on disk, not in git — too big for GitHub)
+*.root
+*.npz
+*.zip

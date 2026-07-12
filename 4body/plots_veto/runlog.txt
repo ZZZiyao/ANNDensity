@@ -1,0 +1,55 @@
+=== START Thu, Jul  9, 2026 12:59:03 AM ===
+[spline]   mass_s  m1:0.82:0.86  00:59:03
+method=spline veto='m1:0.82:0.86' axis=m1 ratio=1.0030 chi2nb=0.6158 nbins=4
+[spline]   mass_m  m1:0.80:0.88  00:59:15
+method=spline veto='m1:0.80:0.88' axis=m1 ratio=0.9997 chi2nb=2.4440 nbins=8
+[spline]   mass_l  m1:0.78:0.90  00:59:27
+method=spline veto='m1:0.78:0.90' axis=m1 ratio=0.9989 chi2nb=3.1550 nbins=12
+[spline]   mass_xl  m1:0.75:0.93  00:59:39
+method=spline veto='m1:0.75:0.93' axis=m1 ratio=0.9915 chi2nb=8.5981 nbins=18
+[spline]   apeak_s  cos1:-0.6:-0.4  00:59:50
+method=spline veto='cos1:-0.6:-0.4' axis=cos1 ratio=0.9990 chi2nb=0.1820 nbins=4
+[spline]   apeak_m  cos1:-0.7:-0.3  01:00:02
+method=spline veto='cos1:-0.7:-0.3' axis=cos1 ratio=0.9672 chi2nb=53.6565 nbins=8
+[spline]   apeak_l  cos1:-0.85:-0.15  01:00:13
+method=spline veto='cos1:-0.85:-0.15' axis=cos1 ratio=0.9766 chi2nb=35.4535 nbins=14
+[spline]   atail_s  cos1:0.6:0.8  01:00:25
+method=spline veto='cos1:0.6:0.8' axis=cos1 ratio=1.2070 chi2nb=1303.6528 nbins=4
+[spline]   atail_m  cos1:0.5:0.9  01:00:36
+method=spline veto='cos1:0.5:0.9' axis=cos1 ratio=1.5038 chi2nb=10309.0038 nbins=8
+[spline]   atail_l  cos1:0.4:1.0  01:00:48
+method=spline veto='cos1:0.4:1.0' axis=cos1 ratio=1.5452 chi2nb=25706.8597 nbins=12
+[spline]   2d_s  cos1:-0.6:-0.2,cos2:-0.6:-0.2  01:01:00
+method=spline veto='cos1:-0.6:-0.2,cos2:-0.6:-0.2' axis=cos1 ratio=0.9855 chi2nb=3.3292 nbins=8
+[spline]   2d_l  cos1:-0.7:0.1,cos2:-0.7:0.1  01:01:11
+method=spline veto='cos1:-0.7:0.1,cos2:-0.7:0.1' axis=cos1 ratio=0.9700 chi2nb=33.1886 nbins=16
+[spline]   3d  cos1:-0.4:0.2,cos2:-0.4:0.2,m1:0.80:0.92  01:01:22
+method=spline veto='cos1:-0.4:0.2,cos2:-0.4:0.2,m1:0.80:0.92' axis=cos1 ratio=0.9919 chi2nb=2.9769 nbins=12
+=== spline done Thu, Jul  9, 2026  1:01:33 AM ===
+[legendre] mass_s  m1:0.82:0.86  01:01:34
+method=Legendre veto='m1:0.82:0.86' axis=m1 ratio=1.0037 chi2nb=0.9404 nbins=4
+[legendre] mass_m  m1:0.80:0.88  01:21:13
+method=Legendre veto='m1:0.80:0.88' axis=m1 ratio=1.0037 chi2nb=1.4713 nbins=8
+[legendre] mass_l  m1:0.78:0.90  01:35:20
+method=Legendre veto='m1:0.78:0.90' axis=m1 ratio=1.0023 chi2nb=1.5999 nbins=12
+[legendre] mass_xl  m1:0.75:0.93  01:49:26
+method=Legendre veto='m1:0.75:0.93' axis=m1 ratio=0.9711 chi2nb=47.4597 nbins=18
+[legendre] apeak_s  cos1:-0.6:-0.4  01:59:04
+method=Legendre veto='cos1:-0.6:-0.4' axis=cos1 ratio=0.9995 chi2nb=0.6672 nbins=4
+[legendre] apeak_m  cos1:-0.7:-0.3  02:17:37
+method=Legendre veto='cos1:-0.7:-0.3' axis=cos1 ratio=0.9984 chi2nb=2.0946 nbins=8
+[legendre] apeak_l  cos1:-0.85:-0.15  02:31:48
+method=Legendre veto='cos1:-0.85:-0.15' axis=cos1 ratio=0.9981 chi2nb=2.8986 nbins=14
+[legendre] atail_s  cos1:0.6:0.8  02:45:52
+method=Legendre veto='cos1:0.6:0.8' axis=cos1 ratio=1.0132 chi2nb=4.5100 nbins=4
+[legendre] atail_m  cos1:0.5:0.9  03:02:03
+method=Legendre veto='cos1:0.5:0.9' axis=cos1 ratio=1.1038 chi2nb=542.9968 nbins=8
+[legendre] atail_l  cos1:0.4:1.0  03:16:06
+method=Legendre veto='cos1:0.4:1.0' axis=cos1 ratio=1.1211 chi2nb=1594.4270 nbins=12
+[legendre] 2d_s  cos1:-0.6:-0.2,cos2:-0.6:-0.2  03:30:07
+method=Legendre veto='cos1:-0.6:-0.2,cos2:-0.6:-0.2' axis=cos1 ratio=1.0037 chi2nb=0.9537 nbins=8
+[legendre] 2d_l  cos1:-0.7:0.1,cos2:-0.7:0.1  03:48:19
+method=Legendre veto='cos1:-0.7:0.1,cos2:-0.7:0.1' axis=cos1 ratio=0.9921 chi2nb=7.0423 nbins=16
+[legendre] 3d  cos1:-0.4:0.2,cos2:-0.4:0.2,m1:0.80:0.92  04:04:12
+method=Legendre veto='cos1:-0.4:0.2,cos2:-0.4:0.2,m1:0.80:0.92' axis=cos1 ratio=1.0010 chi2nb=2.2179 nbins=12
+=== ALL DONE Thu, Jul  9, 2026  4:21:52 AM ===

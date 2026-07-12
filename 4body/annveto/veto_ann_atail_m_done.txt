@@ -1,0 +1,1 @@
+done best_val -216288.9 @ epoch 9800

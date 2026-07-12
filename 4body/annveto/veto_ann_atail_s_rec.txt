@@ -1,0 +1,1 @@
+method=ANN veto='cos1:0.6:0.8' axis=cos1 ratio=1.0027 chi2nb=1.1066 nbins=4

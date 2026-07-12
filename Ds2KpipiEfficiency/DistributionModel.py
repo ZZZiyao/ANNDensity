@@ -1,4 +1,4 @@
-import math, sys
+import math, sys, os
 
 import amplitf.interface as atfi
 import amplitf.kinematics as atfk
@@ -30,7 +30,9 @@ parameters_list = [
   ("sumptcut",  r"sum $p_{T}$ cut (GeV)",         (2.5, 6.), -2.5), 
 ]
 
-true_cuts = [ atfi.const(0.4), atfi.const(3.), atfi.const(2.0), atfi.const(1.), atfi.const(3.) ]
+# track-pT cut (true_cuts[0]) is env-overridable: EFF_PTCUT=0.25 selects the alternative
+# sample that better matches paper Fig.3; default 0.4 keeps the original pipeline unchanged.
+true_cuts = [ atfi.const(float(os.environ.get("EFF_PTCUT", 0.4))), atfi.const(3.), atfi.const(2.0), atfi.const(1.), atfi.const(3.) ]
 
 random_array_size = 11
 

@@ -169,21 +169,27 @@ def bootstrap_p_eff(H, xc, yc, n_leg, lambda1, lambda2, B=200):
 # Main
 # ===============================
 def main():
+    import os
     # ---- parameters ----
     n_leg = 8
-    lambda1 = 0.01
-    lambda2 = 0.1
+    # NB: our objective penalises the raw count-scale coefficients (c0~1600), whereas the paper's
+    # lambda applies to the normalised efficiency, so the paper's stated lambda2=0.1 is much stronger
+    # in this convention. Cross-validating in our convention gives lambda2=0.06 -> chi2/ndof=1.04,
+    # matching the paper's Legendre fit. Env-overridable.
+    lambda1 = float(os.environ.get("EFF_LAM1", 0.01))
+    lambda2 = float(os.environ.get("EFF_LAM2", 0.06))
     bins_fit = 50
     bins_proj = 100
     B_bootstrap = 200
 
     # ---- load data ----
-    f_train = uproot.open("eff_toy_4e6.root")
+    _TAG = os.environ.get("EFF_TAG", "")
+    f_train = uproot.open(os.environ.get("EFF_TOY_HI", "eff_toy_4e6.root"))
     tree_train = f_train[f_train.keys()[0]]
     m_train = tree_train["mprime"].array(library="np")
     t_train = tree_train["thetaprime"].array(library="np")
 
-    f_test = uproot.open("eff_toy_1e5.root")
+    f_test = uproot.open(os.environ.get("EFF_TOY_LO", "eff_toy_1e5.root"))
     tree_test = f_test[f_test.keys()[0]]
     m_test = tree_test["mprime"].array(library="np")
     t_test = tree_test["thetaprime"].array(library="np")
@@ -314,7 +320,7 @@ def main():
     )
 
     plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig("fig3_legendre_poisson.png", dpi=300)
+    plt.savefig(f"fig3_legendre_poisson{_TAG}.png", dpi=300)
     print(f"\nSaved fig3_legendre_poisson.png")
     plt.close()
 

@@ -1,0 +1,1 @@
+method=ANN veto='m1:0.78:0.90' axis=m1 ratio=1.0010 chi2nb=1.2933 nbins=12

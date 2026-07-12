@@ -7,6 +7,8 @@ import tfa.rootio as tfr
 import tfa.neural_nets as tfn
 
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")            # headless (CSD3 batch); interactive calls become no-ops
 import matplotlib.pyplot as plt
 
 import sys, os
@@ -16,7 +18,10 @@ from DistributionModel import observables_phase_space, observables_toys, observa
 
 bounds = observables_phase_space.bounds()
 
-data = atfi.const(tfr.read_tuple("eff_toy_1e5.root", observables_toys))
+# env-overridable I/O so the ptcut=0.25 sample trains a separate model
+_TOY_LO  = os.environ.get("EFF_TOY_LO", "eff_toy_1e5.root")
+_OUTNAME = os.environ.get("EFF_MODEL_PREFIX", "eff_train_2d")
+data = atfi.const(tfr.read_tuple(_TOY_LO, observables_toys))
 
 tfp.set_lhcb_style(size=9, usetex=False)
 fig, ax = plt.subplots(nrows=len(observables_toys), ncols=len(observables_toys), figsize=(8, 6))
@@ -34,7 +39,7 @@ tfn.estimate_density(
     print_step=50,
     display_step=500,
     initfile="init_2d.npy",
-    outfile="eff_train_2d",
+    outfile=_OUTNAME,
     seed=2,
     fig=fig,
     axes=ax,

@@ -1,0 +1,501 @@
+Epoch      0  train       6089.896  val        667.051  best_val            inf  stale 0  *
+Epoch    100  train    -146943.109  val     -16347.811  best_val        667.051  stale 0  *
+Epoch    200  train    -153531.125  val     -17069.180  best_val     -16347.811  stale 0  *
+Epoch    300  train    -156016.984  val     -17331.768  best_val     -17069.180  stale 0  *
+Epoch    400  train    -157513.500  val     -17491.762  best_val     -17331.768  stale 0  *
+Epoch    500  train    -158268.953  val     -17572.057  best_val     -17491.762  stale 0  *
+Epoch    600  train    -158596.828  val     -17606.070  best_val     -17572.057  stale 0  *
+Epoch    700  train    -158802.484  val     -17627.592  best_val     -17606.070  stale 0  *
+Epoch    800  train    -158951.531  val     -17642.770  best_val     -17627.592  stale 0  *
+Epoch    900  train    -159072.125  val     -17655.312  best_val     -17642.770  stale 0  *
+Epoch   1000  train    -159196.266  val     -17669.391  best_val     -17655.312  stale 0  *
+Epoch   1100  train    -159295.047  val     -17679.766  best_val     -17669.391  stale 0  *
+Epoch   1200  train    -159449.734  val     -17697.432  best_val     -17679.766  stale 0  *
+Epoch   1300  train    -159578.500  val     -17710.223  best_val     -17697.432  stale 0  *
+Epoch   1400  train    -159691.422  val     -17723.512  best_val     -17710.223  stale 0  *
+Epoch   1500  train    -159623.375  val     -17719.594  best_val     -17723.512  stale 0
+Epoch   1600  train    -159780.516  val     -17737.314  best_val     -17723.512  stale 1  *
+Epoch   1700  train    -159853.281  val     -17744.949  best_val     -17737.314  stale 0  *
+Epoch   1800  train    -159883.656  val     -17747.922  best_val     -17744.949  stale 0  *
+Epoch   1900  train    -159910.062  val     -17750.758  best_val     -17747.922  stale 0  *
+Epoch   2000  train    -159922.719  val     -17751.125  best_val     -17750.758  stale 0  *
+Epoch   2100  train    -159888.281  val     -17748.213  best_val     -17751.125  stale 0
+Epoch   2200  train    -159950.078  val     -17754.252  best_val     -17751.125  stale 1  *
+Epoch   2300  train    -159998.734  val     -17759.344  best_val     -17754.252  stale 0  *
+Epoch   2400  train    -159945.469  val     -17752.568  best_val     -17759.344  stale 0
+Epoch   2500  train    -160039.922  val     -17763.637  best_val     -17759.344  stale 1  *
+Epoch   2600  train    -160059.703  val     -17765.424  best_val     -17763.637  stale 0  *
+Epoch   2700  train    -160080.953  val     -17768.270  best_val     -17765.424  stale 0  *
+Epoch   2800  train    -160100.219  val     -17770.695  best_val     -17768.270  stale 0  *
+Epoch   2900  train    -160118.562  val     -17771.812  best_val     -17770.695  stale 0  *
+Epoch   3000  train    -160053.188  val     -17766.061  best_val     -17771.812  stale 0
+Epoch   3100  train    -160129.297  val     -17772.533  best_val     -17771.812  stale 1  *
+Epoch   3200  train    -160176.547  val     -17777.457  best_val     -17772.533  stale 0  *
+Epoch   3300  train    -160182.328  val     -17776.025  best_val     -17777.457  stale 0
+Epoch   3400  train    -160208.859  val     -17779.568  best_val     -17777.457  stale 1  *
+Epoch   3500  train    -160223.141  val     -17781.031  best_val     -17779.568  stale 0  *
+Epoch   3600  train    -160234.203  val     -17781.797  best_val     -17781.031  stale 0  *
+Epoch   3700  train    -160251.609  val     -17783.234  best_val     -17781.797  stale 0  *
+Epoch   3800  train    -160275.312  val     -17784.832  best_val     -17783.234  stale 0  *
+Epoch   3900  train    -160288.781  val     -17785.725  best_val     -17784.832  stale 0  *
+Epoch   4000  train    -160072.031  val     -17758.260  best_val     -17785.725  stale 0
+Epoch   4100  train    -160309.250  val     -17787.574  best_val     -17785.725  stale 1  *
+Epoch   4200  train    -160344.734  val     -17790.240  best_val     -17787.574  stale 0  *
+Epoch   4300  train    -160375.516  val     -17794.406  best_val     -17790.240  stale 0  *
+Epoch   4400  train    -160404.547  val     -17797.037  best_val     -17794.406  stale 0  *
+Epoch   4500  train    -160437.062  val     -17799.861  best_val     -17797.037  stale 0  *
+Epoch   4600  train    -160461.078  val     -17803.297  best_val     -17799.861  stale 0  *
+Epoch   4700  train    -160501.266  val     -17806.938  best_val     -17803.297  stale 0  *
+Epoch   4800  train    -160455.984  val     -17802.568  best_val     -17806.938  stale 0
+Epoch   4900  train    -160560.406  val     -17813.965  best_val     -17806.938  stale 1  *
+Epoch   5000  train    -160588.375  val     -17817.090  best_val     -17813.965  stale 0  *
+Epoch   5100  train    -160591.141  val     -17816.898  best_val     -17817.090  stale 0
+Epoch   5200  train    -160631.109  val     -17820.814  best_val     -17817.090  stale 1  *
+Epoch   5300  train    -160683.344  val     -17827.127  best_val     -17820.814  stale 0  *
+Epoch   5400  train    -160695.188  val     -17828.193  best_val     -17827.127  stale 0  *
+Epoch   5500  train    -160718.734  val     -17830.170  best_val     -17828.193  stale 0  *
+Epoch   5600  train    -160758.859  val     -17835.711  best_val     -17830.170  stale 0  *
+Epoch   5700  train    -160793.688  val     -17839.684  best_val     -17835.711  stale 0  *
+Epoch   5800  train    -160805.516  val     -17842.779  best_val     -17839.684  stale 0  *
+Epoch   5900  train    -160804.688  val     -17840.412  best_val     -17842.779  stale 0
+Epoch   6000  train    -160863.531  val     -17847.145  best_val     -17842.779  stale 1  *
+Epoch   6100  train    -160893.156  val     -17851.008  best_val     -17847.145  stale 0  *
+Epoch   6200  train    -160915.297  val     -17854.043  best_val     -17851.008  stale 0  *
+Epoch   6300  train    -160921.047  val     -17854.535  best_val     -17854.043  stale 0  *
+Epoch   6400  train    -160943.500  val     -17855.660  best_val     -17854.535  stale 0  *
+Epoch   6500  train    -160890.922  val     -17846.855  best_val     -17855.660  stale 0
+Epoch   6600  train    -160987.328  val     -17859.621  best_val     -17855.660  stale 1  *
+Epoch   6700  train    -160956.172  val     -17857.264  best_val     -17859.621  stale 0
+Epoch   6800  train    -160983.078  val     -17859.193  best_val     -17859.621  stale 1
+Epoch   6900  train    -161066.875  val     -17866.037  best_val     -17859.621  stale 2  *
+Epoch   7000  train    -161092.469  val     -17866.275  best_val     -17866.037  stale 0  *
+Epoch   7100  train    -161019.250  val     -17861.051  best_val     -17866.275  stale 0
+Epoch   7200  train    -161125.438  val     -17870.059  best_val     -17866.275  stale 1  *
+Epoch   7300  train    -161119.234  val     -17866.906  best_val     -17870.059  stale 0
+Epoch   7400  train    -161153.875  val     -17873.879  best_val     -17870.059  stale 1  *
+Epoch   7500  train    -161179.906  val     -17873.871  best_val     -17873.879  stale 0
+Epoch   7600  train    -161120.625  val     -17870.490  best_val     -17873.879  stale 1
+Epoch   7700  train    -161114.469  val     -17865.346  best_val     -17873.879  stale 2
+Epoch   7800  train    -161208.828  val     -17876.152  best_val     -17873.879  stale 3  *
+Epoch   7900  train    -161191.016  val     -17874.404  best_val     -17876.152  stale 0
+Epoch   8000  train    -161222.578  val     -17875.174  best_val     -17876.152  stale 1
+Epoch   8100  train    -161264.125  val     -17881.797  best_val     -17876.152  stale 2  *
+Epoch   8200  train    -161267.734  val     -17882.367  best_val     -17881.797  stale 0  *
+Epoch   8300  train    -161269.297  val     -17882.627  best_val     -17882.367  stale 0  *
+Epoch   8400  train    -161273.484  val     -17882.018  best_val     -17882.627  stale 0
+Epoch   8500  train    -161287.406  val     -17885.309  best_val     -17882.627  stale 1  *
+Epoch   8600  train    -161256.859  val     -17881.393  best_val     -17885.309  stale 0
+Epoch   8700  train    -161262.609  val     -17886.498  best_val     -17885.309  stale 1  *
+Epoch   8800  train    -161325.406  val     -17888.414  best_val     -17886.498  stale 0  *
+Epoch   8900  train    -161143.406  val     -17875.166  best_val     -17888.414  stale 0
+Epoch   9000  train    -161303.453  val     -17890.812  best_val     -17888.414  stale 1  *
+Epoch   9100  train    -161342.688  val     -17892.477  best_val     -17890.812  stale 0  *
+Epoch   9200  train    -161343.656  val     -17895.191  best_val     -17892.477  stale 0  *
+Epoch   9300  train    -161309.000  val     -17886.156  best_val     -17895.191  stale 0
+Epoch   9400  train    -161256.531  val     -17879.977  best_val     -17895.191  stale 1
+Epoch   9500  train    -161360.531  val     -17896.246  best_val     -17895.191  stale 2  *
+Epoch   9600  train    -161372.125  val     -17896.445  best_val     -17896.246  stale 0  *
+Epoch   9700  train    -161358.125  val     -17897.123  best_val     -17896.445  stale 0  *
+Epoch   9800  train    -161387.906  val     -17897.783  best_val     -17897.123  stale 0  *
+Epoch   9900  train    -161393.328  val     -17898.672  best_val     -17897.783  stale 0  *
+Epoch  10000  train    -161389.422  val     -17896.812  best_val     -17898.672  stale 0
+Epoch  10100  train    -161398.609  val     -17899.402  best_val     -17898.672  stale 1  *
+Epoch  10200  train    -161390.125  val     -17897.980  best_val     -17899.402  stale 0
+Epoch  10300  train    -160929.156  val     -17856.279  best_val     -17899.402  stale 1
+Epoch  10400  train    -161409.609  val     -17902.543  best_val     -17899.402  stale 2  *
+Epoch  10500  train    -160682.203  val     -17830.828  best_val     -17902.543  stale 0
+Epoch  10600  train    -161378.141  val     -17894.965  best_val     -17902.543  stale 1
+Epoch  10700  train    -161276.344  val     -17881.258  best_val     -17902.543  stale 2
+Epoch  10800  train    -161424.141  val     -17902.750  best_val     -17902.543  stale 3  *
+Epoch  10900  train    -160030.031  val     -17763.684  best_val     -17902.750  stale 0
+Epoch  11000  train    -161439.016  val     -17904.758  best_val     -17902.750  stale 1  *
+Epoch  11100  train    -161413.875  val     -17899.271  best_val     -17904.758  stale 0
+Epoch  11200  train    -161449.516  val     -17905.564  best_val     -17904.758  stale 1  *
+Epoch  11300  train    -161454.203  val     -17906.396  best_val     -17905.564  stale 0  *
+Epoch  11400  train    -161451.344  val     -17906.180  best_val     -17906.396  stale 0
+Epoch  11500  train    -161010.531  val     -17865.070  best_val     -17906.396  stale 1
+Epoch  11600  train    -161431.828  val     -17905.965  best_val     -17906.396  stale 2
+Epoch  11700  train    -161474.562  val     -17907.684  best_val     -17906.396  stale 3  *
+Epoch  11800  train    -161482.234  val     -17908.225  best_val     -17907.684  stale 0  *
+Epoch  11900  train    -161379.516  val     -17893.805  best_val     -17908.225  stale 0
+Epoch  12000  train    -161493.984  val     -17910.535  best_val     -17908.225  stale 1  *
+Epoch  12100  train    -161500.609  val     -17912.227  best_val     -17910.535  stale 0  *
+Epoch  12200  train    -161485.844  val     -17911.664  best_val     -17912.227  stale 0
+Epoch  12300  train    -161509.812  val     -17913.941  best_val     -17912.227  stale 1  *
+Epoch  12400  train    -161512.703  val     -17913.146  best_val     -17913.941  stale 0
+Epoch  12500  train    -161520.531  val     -17915.439  best_val     -17913.941  stale 1  *
+Epoch  12600  train    -161536.359  val     -17916.129  best_val     -17915.439  stale 0  *
+Epoch  12700  train    -161532.094  val     -17916.135  best_val     -17916.129  stale 0  *
+Epoch  12800  train    -161467.906  val     -17912.504  best_val     -17916.135  stale 0
+Epoch  12900  train    -161538.078  val     -17917.955  best_val     -17916.135  stale 1  *
+Epoch  13000  train    -161554.562  val     -17919.818  best_val     -17917.955  stale 0  *
+Epoch  13100  train    -161561.891  val     -17919.711  best_val     -17919.818  stale 0
+Epoch  13200  train    -161521.062  val     -17913.205  best_val     -17919.818  stale 1
+Epoch  13300  train    -161569.922  val     -17920.744  best_val     -17919.818  stale 2  *
+Epoch  13400  train    -161508.719  val     -17915.865  best_val     -17920.744  stale 0
+Epoch  13500  train    -161490.359  val     -17914.762  best_val     -17920.744  stale 1
+Epoch  13600  train    -161448.750  val     -17911.377  best_val     -17920.744  stale 2
+Epoch  13700  train    -161561.062  val     -17921.361  best_val     -17920.744  stale 3  *
+Epoch  13800  train    -161546.156  val     -17914.885  best_val     -17921.361  stale 0
+Epoch  13900  train    -161502.750  val     -17915.039  best_val     -17921.361  stale 1
+Epoch  14000  train    -161569.828  val     -17920.775  best_val     -17921.361  stale 2
+Epoch  14100  train    -161611.562  val     -17925.838  best_val     -17921.361  stale 3  *
+Epoch  14200  train    -161622.797  val     -17927.459  best_val     -17925.838  stale 0  *
+Epoch  14300  train    -161626.766  val     -17927.273  best_val     -17927.459  stale 0
+Epoch  14400  train    -161637.047  val     -17927.652  best_val     -17927.459  stale 1  *
+Epoch  14500  train    -161574.188  val     -17922.324  best_val     -17927.652  stale 0
+Epoch  14600  train    -161621.828  val     -17925.238  best_val     -17927.652  stale 1
+Epoch  14700  train    -161626.469  val     -17926.633  best_val     -17927.652  stale 2
+Epoch  14800  train    -161579.000  val     -17924.793  best_val     -17927.652  stale 3
+Epoch  14900  train    -161588.391  val     -17920.586  best_val     -17927.652  stale 4
+Epoch  15000  train    -161659.703  val     -17931.504  best_val     -17927.652  stale 5  *
+Epoch  15100  train    -161669.953  val     -17933.848  best_val     -17931.504  stale 0  *
+Epoch  15200  train    -161656.141  val     -17929.766  best_val     -17933.848  stale 0
+Epoch  15300  train    -161680.562  val     -17935.506  best_val     -17933.848  stale 1  *
+Epoch  15400  train    -161685.703  val     -17935.227  best_val     -17935.506  stale 0
+Epoch  15500  train    -161654.891  val     -17931.980  best_val     -17935.506  stale 1
+Epoch  15600  train    -161686.672  val     -17936.242  best_val     -17935.506  stale 2  *
+Epoch  15700  train    -161689.984  val     -17935.514  best_val     -17936.242  stale 0
+Epoch  15800  train    -161677.297  val     -17933.992  best_val     -17936.242  stale 1
+Epoch  15900  train    -161713.859  val     -17939.227  best_val     -17936.242  stale 2  *
+Epoch  16000  train    -161652.172  val     -17932.215  best_val     -17939.227  stale 0
+Epoch  16100  train    -161693.781  val     -17940.682  best_val     -17939.227  stale 1  *
+Epoch  16200  train    -161759.375  val     -17945.932  best_val     -17940.682  stale 0  *
+Epoch  16300  train    -161770.844  val     -17948.988  best_val     -17945.932  stale 0  *
+Epoch  16400  train    -161734.062  val     -17947.062  best_val     -17948.988  stale 0
+Epoch  16500  train    -161833.844  val     -17956.922  best_val     -17948.988  stale 1  *
+Epoch  16600  train    -161856.266  val     -17959.359  best_val     -17956.922  stale 0  *
+Epoch  16700  train    -161875.609  val     -17963.859  best_val     -17959.359  stale 0  *
+Epoch  16800  train    -161914.859  val     -17965.635  best_val     -17963.859  stale 0  *
+Epoch  16900  train    -161941.844  val     -17971.316  best_val     -17965.635  stale 0  *
+Epoch  17000  train    -161959.328  val     -17973.590  best_val     -17971.316  stale 0  *
+Epoch  17100  train    -161955.250  val     -17972.242  best_val     -17973.590  stale 0
+Epoch  17200  train    -161991.844  val     -17975.863  best_val     -17973.590  stale 1  *
+Epoch  17300  train    -161996.703  val     -17976.717  best_val     -17975.863  stale 0  *
+Epoch  17400  train    -162015.688  val     -17977.219  best_val     -17976.717  stale 0  *
+Epoch  17500  train    -161976.172  val     -17973.777  best_val     -17977.219  stale 0
+Epoch  17600  train    -161984.359  val     -17975.268  best_val     -17977.219  stale 1
+Epoch  17700  train    -162037.469  val     -17978.514  best_val     -17977.219  stale 2  *
+Epoch  17800  train    -161968.172  val     -17974.139  best_val     -17978.514  stale 0
+Epoch  17900  train    -162041.391  val     -17980.697  best_val     -17978.514  stale 1  *
+Epoch  18000  train    -162069.969  val     -17980.582  best_val     -17980.697  stale 0
+Epoch  18100  train    -162075.156  val     -17981.852  best_val     -17980.697  stale 1  *
+Epoch  18200  train    -162084.766  val     -17984.607  best_val     -17981.852  stale 0  *
+Epoch  18300  train    -162090.719  val     -17983.691  best_val     -17984.607  stale 0
+Epoch  18400  train    -162091.359  val     -17985.316  best_val     -17984.607  stale 1  *
+Epoch  18500  train    -162066.328  val     -17983.834  best_val     -17985.316  stale 0
+Epoch  18600  train    -162106.531  val     -17985.574  best_val     -17985.316  stale 1  *
+Epoch  18700  train    -162115.781  val     -17985.406  best_val     -17985.574  stale 0
+Epoch  18800  train    -161960.703  val     -17963.309  best_val     -17985.574  stale 1
+Epoch  18900  train    -162137.406  val     -17987.826  best_val     -17985.574  stale 2  *
+Epoch  19000  train    -162136.484  val     -17987.045  best_val     -17987.826  stale 0
+Epoch  19100  train    -162146.094  val     -17989.199  best_val     -17987.826  stale 1  *
+Epoch  19200  train    -162116.625  val     -17986.967  best_val     -17989.199  stale 0
+Epoch  19300  train    -162158.125  val     -17990.178  best_val     -17989.199  stale 1  *
+Epoch  19400  train    -162151.625  val     -17989.926  best_val     -17990.178  stale 0
+Epoch  19500  train    -162164.062  val     -17989.783  best_val     -17990.178  stale 1
+Epoch  19600  train    -162174.062  val     -17991.240  best_val     -17990.178  stale 2  *
+Epoch  19700  train    -162179.016  val     -17993.029  best_val     -17991.240  stale 0  *
+Epoch  19800  train    -162158.141  val     -17988.047  best_val     -17993.029  stale 0
+Epoch  19900  train    -162020.578  val     -17977.967  best_val     -17993.029  stale 1
+Epoch  20000  train    -162160.312  val     -17988.121  best_val     -17993.029  stale 2
+Epoch  20100  train    -162199.969  val     -17993.648  best_val     -17993.029  stale 3  *
+Epoch  20200  train    -162179.953  val     -17993.180  best_val     -17993.648  stale 0
+Epoch  20300  train    -162183.000  val     -17994.043  best_val     -17993.648  stale 1  *
+Epoch  20400  train    -162203.969  val     -17993.332  best_val     -17994.043  stale 0
+Epoch  20500  train    -162185.922  val     -17994.307  best_val     -17994.043  stale 1  *
+Epoch  20600  train    -162179.969  val     -17994.062  best_val     -17994.307  stale 0
+Epoch  20700  train    -162221.672  val     -17995.348  best_val     -17994.307  stale 1  *
+Epoch  20800  train    -162192.766  val     -17994.457  best_val     -17995.348  stale 0
+Epoch  20900  train    -162199.016  val     -17995.340  best_val     -17995.348  stale 1
+Epoch  21000  train    -162213.609  val     -17994.170  best_val     -17995.348  stale 2
+Epoch  21100  train    -162205.891  val     -17994.055  best_val     -17995.348  stale 3
+Epoch  21200  train    -162236.250  val     -17996.018  best_val     -17995.348  stale 4  *
+Epoch  21300  train    -162192.125  val     -17992.529  best_val     -17996.018  stale 0
+Epoch  21400  train    -162249.406  val     -17997.988  best_val     -17996.018  stale 1  *
+Epoch  21500  train    -162253.797  val     -17998.395  best_val     -17997.988  stale 0  *
+Epoch  21600  train    -162237.766  val     -17994.988  best_val     -17998.395  stale 0
+Epoch  21700  train    -161989.141  val     -17973.920  best_val     -17998.395  stale 1
+Epoch  21800  train    -162267.797  val     -17999.203  best_val     -17998.395  stale 2  *
+Epoch  21900  train    -162258.156  val     -17998.771  best_val     -17999.203  stale 0
+Epoch  22000  train    -162271.109  val     -17999.688  best_val     -17999.203  stale 1  *
+Epoch  22100  train    -162267.516  val     -17998.377  best_val     -17999.688  stale 0
+Epoch  22200  train    -162265.984  val     -17998.160  best_val     -17999.688  stale 1
+Epoch  22300  train    -162280.203  val     -18000.402  best_val     -17999.688  stale 2  *
+Epoch  22400  train    -162283.016  val     -18000.809  best_val     -18000.402  stale 0  *
+Epoch  22500  train    -162276.797  val     -17999.744  best_val     -18000.809  stale 0
+Epoch  22600  train    -162284.812  val     -18002.078  best_val     -18000.809  stale 1  *
+Epoch  22700  train    -162293.703  val     -18001.344  best_val     -18002.078  stale 0
+Epoch  22800  train    -162299.375  val     -18001.598  best_val     -18002.078  stale 1
+Epoch  22900  train    -162290.016  val     -18002.021  best_val     -18002.078  stale 2
+Epoch  23000  train    -162303.234  val     -18002.527  best_val     -18002.078  stale 3  *
+Epoch  23100  train    -162295.906  val     -18001.744  best_val     -18002.527  stale 0
+Epoch  23200  train    -162307.203  val     -18002.777  best_val     -18002.527  stale 1  *
+Epoch  23300  train    -162296.734  val     -18000.723  best_val     -18002.777  stale 0
+Epoch  23400  train    -162309.375  val     -18003.207  best_val     -18002.777  stale 1  *
+Epoch  23500  train    -162317.250  val     -18003.904  best_val     -18003.207  stale 0  *
+Epoch  23600  train    -162319.281  val     -18005.105  best_val     -18003.904  stale 0  *
+Epoch  23700  train    -162315.641  val     -18002.217  best_val     -18005.105  stale 0
+Epoch  23800  train    -162326.266  val     -18005.137  best_val     -18005.105  stale 1  *
+Epoch  23900  train    -162313.391  val     -18004.074  best_val     -18005.137  stale 0
+Epoch  24000  train    -162327.844  val     -18006.840  best_val     -18005.137  stale 1  *
+Epoch  24100  train    -162336.219  val     -18006.307  best_val     -18006.840  stale 0
+Epoch  24200  train    -162335.891  val     -18004.566  best_val     -18006.840  stale 1
+Epoch  24300  train    -162346.047  val     -18007.271  best_val     -18006.840  stale 2  *
+Epoch  24400  train    -162270.609  val     -17999.348  best_val     -18007.271  stale 0
+Epoch  24500  train    -162348.391  val     -18005.256  best_val     -18007.271  stale 1
+Epoch  24600  train    -162351.406  val     -18006.047  best_val     -18007.271  stale 2
+Epoch  24700  train    -162355.594  val     -18007.668  best_val     -18007.271  stale 3  *
+Epoch  24800  train    -162325.484  val     -18005.471  best_val     -18007.668  stale 0
+Epoch  24900  train    -162356.484  val     -18007.215  best_val     -18007.668  stale 1
+Epoch  25000  train    -162362.688  val     -18007.828  best_val     -18007.668  stale 2  *
+Epoch  25100  train    -162366.438  val     -18008.916  best_val     -18007.828  stale 0  *
+Epoch  25200  train    -162353.266  val     -18007.215  best_val     -18008.916  stale 0
+Epoch  25300  train    -162366.453  val     -18009.064  best_val     -18008.916  stale 1  *
+Epoch  25400  train    -162367.766  val     -18009.062  best_val     -18009.064  stale 0
+Epoch  25500  train    -162358.625  val     -18007.725  best_val     -18009.064  stale 1
+Epoch  25600  train    -162367.125  val     -18008.623  best_val     -18009.064  stale 2
+Epoch  25700  train    -162372.172  val     -18010.664  best_val     -18009.064  stale 3  *
+Epoch  25800  train    -162319.141  val     -18001.771  best_val     -18010.664  stale 0
+Epoch  25900  train    -162380.453  val     -18009.338  best_val     -18010.664  stale 1
+Epoch  26000  train    -162386.016  val     -18011.477  best_val     -18010.664  stale 2  *
+Epoch  26100  train    -162380.328  val     -18008.018  best_val     -18011.477  stale 0
+Epoch  26200  train    -162398.859  val     -18011.479  best_val     -18011.477  stale 1  *
+Epoch  26300  train    -162355.578  val     -18005.230  best_val     -18011.479  stale 0
+Epoch  26400  train    -162387.062  val     -18011.723  best_val     -18011.479  stale 1  *
+Epoch  26500  train    -162399.641  val     -18011.287  best_val     -18011.723  stale 0
+Epoch  26600  train    -162399.781  val     -18012.994  best_val     -18011.723  stale 1  *
+Epoch  26700  train    -162393.438  val     -18009.160  best_val     -18012.994  stale 0
+Epoch  26800  train    -162401.281  val     -18010.699  best_val     -18012.994  stale 1
+Epoch  26900  train    -162412.172  val     -18013.543  best_val     -18012.994  stale 2  *
+Epoch  27000  train    -162396.844  val     -18011.404  best_val     -18013.543  stale 0
+Epoch  27100  train    -162415.578  val     -18012.891  best_val     -18013.543  stale 1
+Epoch  27200  train    -162421.125  val     -18013.141  best_val     -18013.543  stale 2
+Epoch  27300  train    -162422.516  val     -18012.209  best_val     -18013.543  stale 3
+Epoch  27400  train    -162420.562  val     -18012.074  best_val     -18013.543  stale 4
+Epoch  27500  train    -162424.406  val     -18013.543  best_val     -18013.543  stale 5
+Epoch  27600  train    -162423.156  val     -18012.211  best_val     -18013.543  stale 6
+Epoch  27700  train    -162432.125  val     -18013.520  best_val     -18013.543  stale 7
+Epoch  27800  train    -162430.172  val     -18014.926  best_val     -18013.543  stale 8  *
+Epoch  27900  train    -162321.469  val     -18005.994  best_val     -18014.926  stale 0
+Epoch  28000  train    -162437.109  val     -18015.840  best_val     -18014.926  stale 1  *
+Epoch  28100  train    -162442.281  val     -18014.941  best_val     -18015.840  stale 0
+Epoch  28200  train    -162440.969  val     -18014.475  best_val     -18015.840  stale 1
+Epoch  28300  train    -162449.531  val     -18015.959  best_val     -18015.840  stale 2  *
+Epoch  28400  train    -162451.031  val     -18016.301  best_val     -18015.959  stale 0  *
+Epoch  28500  train    -162453.953  val     -18015.676  best_val     -18016.301  stale 0
+Epoch  28600  train    -162457.391  val     -18016.166  best_val     -18016.301  stale 1
+Epoch  28700  train    -162425.719  val     -18012.539  best_val     -18016.301  stale 2
+Epoch  28800  train    -162449.141  val     -18016.617  best_val     -18016.301  stale 3  *
+Epoch  28900  train    -162457.344  val     -18016.943  best_val     -18016.617  stale 0  *
+Epoch  29000  train    -162462.281  val     -18017.586  best_val     -18016.943  stale 0  *
+Epoch  29100  train    -162458.109  val     -18015.658  best_val     -18017.586  stale 0
+Epoch  29200  train    -162431.266  val     -18010.639  best_val     -18017.586  stale 1
+Epoch  29300  train    -162465.906  val     -18018.137  best_val     -18017.586  stale 2  *
+Epoch  29400  train    -162470.953  val     -18018.266  best_val     -18018.137  stale 0  *
+Epoch  29500  train    -162468.266  val     -18016.871  best_val     -18018.266  stale 0
+Epoch  29600  train    -162386.656  val     -18006.578  best_val     -18018.266  stale 1
+Epoch  29700  train    -162462.094  val     -18017.236  best_val     -18018.266  stale 2
+Epoch  29800  train    -162476.844  val     -18018.041  best_val     -18018.266  stale 3
+Epoch  29900  train    -162473.250  val     -18017.170  best_val     -18018.266  stale 4
+Epoch  30000  train    -162477.969  val     -18019.695  best_val     -18018.266  stale 5  *
+Epoch  30100  train    -162484.406  val     -18018.977  best_val     -18019.695  stale 0
+Epoch  30200  train    -162474.359  val     -18018.322  best_val     -18019.695  stale 1
+Epoch  30300  train    -162483.750  val     -18018.105  best_val     -18019.695  stale 2
+Epoch  30400  train    -162488.266  val     -18018.607  best_val     -18019.695  stale 3
+Epoch  30500  train    -162491.375  val     -18019.641  best_val     -18019.695  stale 4
+Epoch  30600  train    -162488.578  val     -18017.568  best_val     -18019.695  stale 5
+Epoch  30700  train    -162491.531  val     -18019.512  best_val     -18019.695  stale 6
+Epoch  30800  train    -162496.984  val     -18018.721  best_val     -18019.695  stale 7
+Epoch  30900  train    -162491.734  val     -18019.711  best_val     -18019.695  stale 8  *
+Epoch  31000  train    -162498.328  val     -18018.938  best_val     -18019.711  stale 0
+Epoch  31100  train    -162489.938  val     -18018.996  best_val     -18019.711  stale 1
+Epoch  31200  train    -162496.297  val     -18020.566  best_val     -18019.711  stale 2  *
+Epoch  31300  train    -162503.016  val     -18020.148  best_val     -18020.566  stale 0
+Epoch  31400  train    -162501.250  val     -18020.910  best_val     -18020.566  stale 1  *
+Epoch  31500  train    -162505.328  val     -18020.459  best_val     -18020.910  stale 0
+Epoch  31600  train    -162505.578  val     -18020.939  best_val     -18020.910  stale 1  *
+Epoch  31700  train    -162473.406  val     -18019.885  best_val     -18020.939  stale 0
+Epoch  31800  train    -162506.609  val     -18019.326  best_val     -18020.939  stale 1
+Epoch  31900  train    -162513.703  val     -18020.701  best_val     -18020.939  stale 2
+Epoch  32000  train    -162511.812  val     -18020.805  best_val     -18020.939  stale 3
+Epoch  32100  train    -162516.828  val     -18019.246  best_val     -18020.939  stale 4
+Epoch  32200  train    -162501.109  val     -18020.355  best_val     -18020.939  stale 5
+Epoch  32300  train    -162491.844  val     -18017.850  best_val     -18020.939  stale 6
+Epoch  32400  train    -162517.547  val     -18020.141  best_val     -18020.939  stale 7
+Epoch  32500  train    -162513.047  val     -18020.031  best_val     -18020.939  stale 8
+Epoch  32600  train    -162503.703  val     -18018.180  best_val     -18020.939  stale 9
+Epoch  32700  train    -162518.797  val     -18019.729  best_val     -18020.939  stale 10
+Epoch  32800  train    -162521.797  val     -18020.156  best_val     -18020.939  stale 11
+Epoch  32900  train    -162515.203  val     -18019.867  best_val     -18020.939  stale 12
+Epoch  33000  train    -162519.219  val     -18019.438  best_val     -18020.939  stale 13
+Epoch  33100  train    -162520.391  val     -18020.107  best_val     -18020.939  stale 14
+Epoch  33200  train    -162511.188  val     -18019.035  best_val     -18020.939  stale 15
+Epoch  33300  train    -162527.703  val     -18019.293  best_val     -18020.939  stale 16
+Epoch  33400  train    -162515.422  val     -18016.824  best_val     -18020.939  stale 17
+Epoch  33500  train    -162524.859  val     -18017.297  best_val     -18020.939  stale 18
+Epoch  33600  train    -162524.281  val     -18018.885  best_val     -18020.939  stale 19
+Epoch  33700  train    -162520.406  val     -18020.098  best_val     -18020.939  stale 20
+Epoch  33800  train    -162532.266  val     -18018.746  best_val     -18020.939  stale 21
+Epoch  33900  train    -162517.562  val     -18016.211  best_val     -18020.939  stale 22
+Epoch  34000  train    -162527.781  val     -18015.965  best_val     -18020.939  stale 23
+Epoch  34100  train    -162531.875  val     -18019.537  best_val     -18020.939  stale 24
+Epoch  34200  train    -162529.062  val     -18019.133  best_val     -18020.939  stale 25
+Epoch  34300  train    -162525.641  val     -18019.434  best_val     -18020.939  stale 26
+Epoch  34400  train    -162530.141  val     -18017.320  best_val     -18020.939  stale 27
+Epoch  34500  train    -162499.375  val     -18014.186  best_val     -18020.939  stale 28
+Epoch  34600  train    -162527.859  val     -18018.881  best_val     -18020.939  stale 29
+Epoch  34700  train    -162510.062  val     -18016.410  best_val     -18020.939  stale 30
+Epoch  34800  train    -162526.281  val     -18017.154  best_val     -18020.939  stale 31
+Epoch  34900  train    -162525.594  val     -18018.811  best_val     -18020.939  stale 32
+Epoch  35000  train    -162536.469  val     -18017.096  best_val     -18020.939  stale 33
+Epoch  35100  train    -162538.750  val     -18019.686  best_val     -18020.939  stale 34
+Epoch  35200  train    -162538.531  val     -18018.402  best_val     -18020.939  stale 35
+Epoch  35300  train    -162534.109  val     -18015.789  best_val     -18020.939  stale 36
+Epoch  35400  train    -162540.906  val     -18017.246  best_val     -18020.939  stale 37
+Epoch  35500  train    -162515.859  val     -18015.695  best_val     -18020.939  stale 38
+Epoch  35600  train    -162540.531  val     -18017.469  best_val     -18020.939  stale 39
+Epoch  35700  train    -162536.828  val     -18017.521  best_val     -18020.939  stale 40
+Epoch  35800  train    -162543.141  val     -18016.266  best_val     -18020.939  stale 41
+Epoch  35900  train    -162536.750  val     -18015.832  best_val     -18020.939  stale 42
+Epoch  36000  train    -162543.062  val     -18015.951  best_val     -18020.939  stale 43
+Epoch  36100  train    -162532.734  val     -18014.646  best_val     -18020.939  stale 44
+Epoch  36200  train    -162539.953  val     -18015.682  best_val     -18020.939  stale 45
+Epoch  36300  train    -162540.047  val     -18015.059  best_val     -18020.939  stale 46
+Epoch  36400  train    -162547.016  val     -18016.123  best_val     -18020.939  stale 47
+Epoch  36500  train    -162542.938  val     -18015.805  best_val     -18020.939  stale 48
+Epoch  36600  train    -162541.781  val     -18014.947  best_val     -18020.939  stale 49
+Epoch  36700  train    -162527.766  val     -18014.775  best_val     -18020.939  stale 50
+Epoch  36800  train    -162548.188  val     -18015.904  best_val     -18020.939  stale 51
+Epoch  36900  train    -162541.328  val     -18013.789  best_val     -18020.939  stale 52
+Epoch  37000  train    -162539.328  val     -18012.572  best_val     -18020.939  stale 53
+Epoch  37100  train    -162540.188  val     -18012.359  best_val     -18020.939  stale 54
+Epoch  37200  train    -162539.891  val     -18015.738  best_val     -18020.939  stale 55
+Epoch  37300  train    -162550.719  val     -18014.439  best_val     -18020.939  stale 56
+Epoch  37400  train    -162545.312  val     -18013.646  best_val     -18020.939  stale 57
+Epoch  37500  train    -162547.594  val     -18014.590  best_val     -18020.939  stale 58
+Epoch  37600  train    -162508.047  val     -18007.838  best_val     -18020.939  stale 59
+Epoch  37700  train    -162538.938  val     -18013.207  best_val     -18020.939  stale 60
+Epoch  37800  train    -162546.797  val     -18013.867  best_val     -18020.939  stale 61
+Epoch  37900  train    -162540.719  val     -18011.754  best_val     -18020.939  stale 62
+Epoch  38000  train    -162545.203  val     -18012.457  best_val     -18020.939  stale 63
+Epoch  38100  train    -162544.484  val     -18014.141  best_val     -18020.939  stale 64
+Epoch  38200  train    -162544.578  val     -18013.045  best_val     -18020.939  stale 65
+Epoch  38300  train    -162520.469  val     -18010.076  best_val     -18020.939  stale 66
+Epoch  38400  train    -162540.422  val     -18012.189  best_val     -18020.939  stale 67
+Epoch  38500  train    -162548.109  val     -18012.381  best_val     -18020.939  stale 68
+Epoch  38600  train    -162545.391  val     -18012.004  best_val     -18020.939  stale 69
+Epoch  38700  train    -162538.062  val     -18010.660  best_val     -18020.939  stale 70
+Epoch  38800  train    -162550.312  val     -18012.434  best_val     -18020.939  stale 71
+Epoch  38900  train    -162541.016  val     -18010.869  best_val     -18020.939  stale 72
+Epoch  39000  train    -162538.094  val     -18012.023  best_val     -18020.939  stale 73
+Epoch  39100  train    -162541.844  val     -18011.250  best_val     -18020.939  stale 74
+Epoch  39200  train    -162545.547  val     -18011.443  best_val     -18020.939  stale 75
+Epoch  39300  train    -162542.688  val     -18011.777  best_val     -18020.939  stale 76
+Epoch  39400  train    -162537.609  val     -18011.883  best_val     -18020.939  stale 77
+Epoch  39500  train    -162535.344  val     -18008.275  best_val     -18020.939  stale 78
+Epoch  39600  train    -162527.562  val     -18010.902  best_val     -18020.939  stale 79
+Epoch  39700  train    -162537.047  val     -18007.994  best_val     -18020.939  stale 80
+Epoch  39800  train    -162538.328  val     -18010.652  best_val     -18020.939  stale 81
+Epoch  39900  train    -162546.141  val     -18010.117  best_val     -18020.939  stale 82
+Epoch  40000  train    -162543.516  val     -18011.422  best_val     -18020.939  stale 83
+Epoch  40100  train    -162538.547  val     -18011.094  best_val     -18020.939  stale 84
+Epoch  40200  train    -162536.938  val     -18011.725  best_val     -18020.939  stale 85
+Epoch  40300  train    -162541.188  val     -18010.941  best_val     -18020.939  stale 86
+Epoch  40400  train    -162543.703  val     -18011.123  best_val     -18020.939  stale 87
+Epoch  40500  train    -162539.688  val     -18009.342  best_val     -18020.939  stale 88
+Epoch  40600  train    -162521.906  val     -18007.115  best_val     -18020.939  stale 89
+Epoch  40700  train    -162540.734  val     -18011.664  best_val     -18020.939  stale 90
+Epoch  40800  train    -162540.359  val     -18009.738  best_val     -18020.939  stale 91
+Epoch  40900  train    -162534.422  val     -18010.566  best_val     -18020.939  stale 92
+Epoch  41000  train    -162537.391  val     -18009.873  best_val     -18020.939  stale 93
+Epoch  41100  train    -162518.641  val     -18008.717  best_val     -18020.939  stale 94
+Epoch  41200  train    -162528.000  val     -18008.814  best_val     -18020.939  stale 95
+Epoch  41300  train    -162541.469  val     -18011.043  best_val     -18020.939  stale 96
+Epoch  41400  train    -162539.938  val     -18009.043  best_val     -18020.939  stale 97
+Epoch  41500  train    -162513.484  val     -18007.965  best_val     -18020.939  stale 98
+Epoch  41600  train    -162534.422  val     -18010.383  best_val     -18020.939  stale 99
+Epoch  41700  train    -162536.609  val     -18009.309  best_val     -18020.939  stale 100
+Epoch  41800  train    -162534.859  val     -18011.762  best_val     -18020.939  stale 101
+Epoch  41900  train    -162529.016  val     -18011.246  best_val     -18020.939  stale 102
+Epoch  42000  train    -162530.234  val     -18009.080  best_val     -18020.939  stale 103
+Epoch  42100  train    -162542.484  val     -18010.824  best_val     -18020.939  stale 104
+Epoch  42200  train    -162543.797  val     -18009.445  best_val     -18020.939  stale 105
+Epoch  42300  train    -162545.766  val     -18010.570  best_val     -18020.939  stale 106
+Epoch  42400  train    -162541.016  val     -18010.445  best_val     -18020.939  stale 107
+Epoch  42500  train    -162543.281  val     -18010.537  best_val     -18020.939  stale 108
+Epoch  42600  train    -162524.969  val     -18008.641  best_val     -18020.939  stale 109
+Epoch  42700  train    -162541.219  val     -18010.689  best_val     -18020.939  stale 110
+Epoch  42800  train    -162536.000  val     -18010.119  best_val     -18020.939  stale 111
+Epoch  42900  train    -162542.766  val     -18011.805  best_val     -18020.939  stale 112
+Epoch  43000  train    -162530.281  val     -18010.271  best_val     -18020.939  stale 113
+Epoch  43100  train    -162548.609  val     -18012.051  best_val     -18020.939  stale 114
+Epoch  43200  train    -162545.344  val     -18012.021  best_val     -18020.939  stale 115
+Epoch  43300  train    -162535.156  val     -18010.408  best_val     -18020.939  stale 116
+Epoch  43400  train    -162539.453  val     -18011.908  best_val     -18020.939  stale 117
+Epoch  43500  train    -162546.422  val     -18012.189  best_val     -18020.939  stale 118
+Epoch  43600  train    -162545.828  val     -18012.199  best_val     -18020.939  stale 119
+Epoch  43700  train    -162537.438  val     -18011.902  best_val     -18020.939  stale 120
+Epoch  43800  train    -162545.422  val     -18010.855  best_val     -18020.939  stale 121
+Epoch  43900  train    -162543.906  val     -18012.412  best_val     -18020.939  stale 122
+Epoch  44000  train    -162541.016  val     -18011.068  best_val     -18020.939  stale 123
+Epoch  44100  train    -162545.172  val     -18011.186  best_val     -18020.939  stale 124
+Epoch  44200  train    -162547.000  val     -18010.863  best_val     -18020.939  stale 125
+Epoch  44300  train    -162546.984  val     -18012.113  best_val     -18020.939  stale 126
+Epoch  44400  train    -162546.953  val     -18010.064  best_val     -18020.939  stale 127
+Epoch  44500  train    -162543.734  val     -18011.389  best_val     -18020.939  stale 128
+Epoch  44600  train    -162552.641  val     -18012.105  best_val     -18020.939  stale 129
+Epoch  44700  train    -162551.359  val     -18010.965  best_val     -18020.939  stale 130
+Epoch  44800  train    -162545.938  val     -18011.275  best_val     -18020.939  stale 131
+Epoch  44900  train    -162539.250  val     -18008.648  best_val     -18020.939  stale 132
+Epoch  45000  train    -162547.188  val     -18010.818  best_val     -18020.939  stale 133
+Epoch  45100  train    -162546.266  val     -18011.408  best_val     -18020.939  stale 134
+Epoch  45200  train    -162553.594  val     -18012.678  best_val     -18020.939  stale 135
+Epoch  45300  train    -162552.219  val     -18011.521  best_val     -18020.939  stale 136
+Epoch  45400  train    -162540.812  val     -18010.371  best_val     -18020.939  stale 137
+Epoch  45500  train    -162552.875  val     -18011.488  best_val     -18020.939  stale 138
+Epoch  45600  train    -162547.000  val     -18010.773  best_val     -18020.939  stale 139
+Epoch  45700  train    -162547.578  val     -18010.840  best_val     -18020.939  stale 140
+Epoch  45800  train    -162545.719  val     -18010.859  best_val     -18020.939  stale 141
+Epoch  45900  train    -162554.547  val     -18012.721  best_val     -18020.939  stale 142
+Epoch  46000  train    -162553.578  val     -18010.973  best_val     -18020.939  stale 143
+Epoch  46100  train    -162552.641  val     -18012.082  best_val     -18020.939  stale 144
+Epoch  46200  train    -162545.016  val     -18010.811  best_val     -18020.939  stale 145
+Epoch  46300  train    -162555.422  val     -18011.508  best_val     -18020.939  stale 146
+Epoch  46400  train    -162545.531  val     -18010.705  best_val     -18020.939  stale 147
+Epoch  46500  train    -162546.625  val     -18012.098  best_val     -18020.939  stale 148
+Epoch  46600  train    -162548.469  val     -18011.326  best_val     -18020.939  stale 149
+Epoch  46700  train    -162549.000  val     -18010.533  best_val     -18020.939  stale 150
+Epoch  46800  train    -162542.953  val     -18010.822  best_val     -18020.939  stale 151
+Epoch  46900  train    -162544.531  val     -18009.008  best_val     -18020.939  stale 152
+Epoch  47000  train    -162549.688  val     -18009.250  best_val     -18020.939  stale 153
+Epoch  47100  train    -162554.375  val     -18009.967  best_val     -18020.939  stale 154
+Epoch  47200  train    -162535.516  val     -18010.158  best_val     -18020.939  stale 155
+Epoch  47300  train    -162555.094  val     -18011.301  best_val     -18020.939  stale 156
+Epoch  47400  train    -162527.672  val     -18009.947  best_val     -18020.939  stale 157
+Epoch  47500  train    -162547.250  val     -18010.607  best_val     -18020.939  stale 158
+Epoch  47600  train    -162555.719  val     -18010.973  best_val     -18020.939  stale 159
+Epoch  47700  train    -162553.734  val     -18010.320  best_val     -18020.939  stale 160
+Epoch  47800  train    -162549.734  val     -18011.271  best_val     -18020.939  stale 161
+Epoch  47900  train    -162555.312  val     -18012.018  best_val     -18020.939  stale 162
+Epoch  48000  train    -162545.422  val     -18009.672  best_val     -18020.939  stale 163
+Epoch  48100  train    -162543.516  val     -18009.801  best_val     -18020.939  stale 164
+Epoch  48200  train    -162518.547  val     -18008.053  best_val     -18020.939  stale 165
+Epoch  48300  train    -162554.547  val     -18012.131  best_val     -18020.939  stale 166
+Epoch  48400  train    -162549.609  val     -18010.902  best_val     -18020.939  stale 167
+Epoch  48500  train    -162554.312  val     -18012.076  best_val     -18020.939  stale 168
+Epoch  48600  train    -162549.828  val     -18009.633  best_val     -18020.939  stale 169
+Epoch  48700  train    -162548.391  val     -18009.641  best_val     -18020.939  stale 170
+Epoch  48800  train    -162549.266  val     -18010.654  best_val     -18020.939  stale 171
+Epoch  48900  train    -162551.969  val     -18010.969  best_val     -18020.939  stale 172
+Epoch  49000  train    -162556.016  val     -18009.844  best_val     -18020.939  stale 173
+Epoch  49100  train    -162545.375  val     -18009.385  best_val     -18020.939  stale 174
+Epoch  49200  train    -162543.391  val     -18008.848  best_val     -18020.939  stale 175
+Epoch  49300  train    -162549.859  val     -18009.523  best_val     -18020.939  stale 176
+Epoch  49400  train    -162545.531  val     -18009.768  best_val     -18020.939  stale 177
+Epoch  49500  train    -162550.906  val     -18010.482  best_val     -18020.939  stale 178
+Epoch  49600  train    -162551.125  val     -18010.521  best_val     -18020.939  stale 179
+Epoch  49700  train    -162545.984  val     -18007.520  best_val     -18020.939  stale 180
+Epoch  49800  train    -162553.734  val     -18009.488  best_val     -18020.939  stale 181
+Epoch  49900  train    -162548.250  val     -18009.982  best_val     -18020.939  stale 182
+best_epoch 31600  best_val -18020.939453

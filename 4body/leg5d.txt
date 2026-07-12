@@ -1,0 +1,1 @@
+method=legendre order=4 ncoeff=3125 bins=8 lambda2=1.0 m1=1.473 m2=1.756 cos1=2.050 cos2=1.317 phi=1.128 cc2D=1.360 mean=1.545
