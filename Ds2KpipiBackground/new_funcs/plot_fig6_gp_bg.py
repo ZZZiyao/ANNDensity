@@ -107,16 +107,16 @@ def main():
     mu_lower = mu_3d[:n_lower]
     mu_upper = mu_3d[n_lower:]
 
-    # --- Row 1: mD vs m' ---
+    # --- Row 3: mD vs m' ---
     # Data
-    ax = axes[0, 0]
+    ax = axes[2, 0]
     ax.hist2d(m_sb, md_sb, bins=[50, 30],
               range=[[0, 1], [MD_LO, MD_HI]], cmap="afmhot_r")
     ax.set_xlabel("m'"); ax.set_ylabel("$m_D$ (GeV)")
     ax.set_title("Data: $m_D$ vs $m'$")
 
     # GP prediction: project over theta', plot lower and upper separately
-    ax = axes[0, 1]
+    ax = axes[2, 1]
     proj_lower = mu_lower.sum(axis=2)
     proj_upper = mu_upper.sum(axis=2)
     ax.pcolormesh(mf, md_lower, proj_lower, shading="auto", cmap="afmhot_r")
@@ -125,7 +125,7 @@ def main():
     ax.set_xlabel("m'"); ax.set_ylabel("$m_D$ (GeV)")
     ax.set_title("GP: $m_D$ vs $m'$")
 
-    axes[0, 2].axis("off")
+    axes[2, 2].axis("off")
 
     # --- Row 2: theta' vs m' ---
     ax = axes[1, 0]
@@ -142,14 +142,14 @@ def main():
 
     axes[1, 2].axis("off")
 
-    # --- Row 3: mD vs theta' ---
-    ax = axes[2, 0]
+    # --- Row 1: mD vs theta' ---
+    ax = axes[0, 0]
     ax.hist2d(t_sb, md_sb, bins=[50, 30],
               range=[[0, 1], [MD_LO, MD_HI]], cmap="afmhot_r")
     ax.set_xlabel("$\\theta'$"); ax.set_ylabel("$m_D$ (GeV)")
     ax.set_title("Data: $m_D$ vs $\\theta'$")
 
-    ax = axes[2, 1]
+    ax = axes[0, 1]
     proj_lower_t = mu_lower.sum(axis=1)
     proj_upper_t = mu_upper.sum(axis=1)
     ax.pcolormesh(tf_arr, md_lower, proj_lower_t, shading="auto", cmap="afmhot_r")
@@ -158,7 +158,7 @@ def main():
     ax.set_xlabel("$\\theta'$"); ax.set_ylabel("$m_D$ (GeV)")
     ax.set_title("GP: $m_D$ vs $\\theta'$")
 
-    axes[2, 2].axis("off")
+    axes[0, 2].axis("off")
 
     # --- Row 4: 1D projections (errorbar style) ---
     # m'

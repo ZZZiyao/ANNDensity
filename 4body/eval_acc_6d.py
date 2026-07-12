@@ -71,6 +71,6 @@ for a, i in zip(ax, range(5)):
     print(f"  {VARS[i]:5s}  chi2/nb = {c2:.2f}")
 c2cc = chi2_cc()
 print(f"  cos1-cos2 2D  chi2/nb = {c2cc:.2f}")
-fig.suptitle(f"cut+logit 6d acceptance ({os.path.basename(initfile)})  cos2D chi2/nb={c2cc:.2f}", fontsize=13)
+fig.suptitle(f"Four-body acceptance: neural-network fit   (cos1-cos2 2D chi2/nb={c2cc:.2f})", fontsize=13)
 plt.tight_layout(rect=[0, 0, 1, 0.95]); plt.savefig(outprefix + "_eval.png", dpi=140)
 print(f"\nSaved {outprefix}_eval.png")

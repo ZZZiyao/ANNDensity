@@ -38,6 +38,10 @@ def main():
     f_test = uproot.open(os.environ.get("EFF_TOY_LO", "eff_toy_1e5.root"))
     te = f_test[f_test.keys()[0]]
     m_test = te["mprime"].array(library="np"); t_test = te["thetaprime"].array(library="np")
+    _ntest = int(os.environ.get("EFF_TEST_N", "0"))   # subsample the test to an independent N (e.g. 1e5)
+    if _ntest and _ntest < len(m_test):
+        _idx = np.random.RandomState(0).choice(len(m_test), _ntest, replace=False)
+        m_test, t_test = m_test[_idx], t_test[_idx]
     print(f"Training: {len(m_train)}   Test: {len(m_test)}")
 
     # ---- training histogram (50x50) -> GP targets ----
